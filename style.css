@@ -1,0 +1,32 @@
+*{
+    font-style: italic;
+}
+div{
+    background-color: blue;
+}
+p{
+    color:red;
+}
+
+.bold{
+  font-size:large;
+}
+
+.big{
+    font-size:3in;
+}
+
+
+#frist{
+    background-color: blueviolet;
+    padding:100cm;
+}
+
+#second{
+    background-color: magenta;
+    padding:13cm;
+}
+
+input[type="text"]{
+    font-size:30pt;
+}
