@@ -1,0 +1,20 @@
+.box{
+  height:200px;
+  width:200px;
+  background-color: aquamarine;  
+  font-style:italic;
+  font-family: monospace;
+  font-size:10ch;
+ }
+
+ .box:hover{
+     background-color: crimson;
+     font-size:100px;
+ }
+
+ .box:active{
+     background-color: brown;
+     height:5ch;
+     width:10ch;
+     font-size:80px;
+ }
