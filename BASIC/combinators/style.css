@@ -1,0 +1,25 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+p{
+    width: 200px;
+}
+
+h2+p{
+    background-color: aqua;
+}
+
+
+h1~p{
+    font-size: 4ch;
+}
+
+section>p{
+    background-color: cyan;
+}
+
+div p{
+    background-color: maroon;
+}
