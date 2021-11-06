@@ -1,0 +1,17 @@
+.container{
+    height:200px;
+    width:200px;
+    background-color: aqua;
+}
+@media (max-width:900px) {
+    .container{
+    background-color: rgb(230, 119, 45);
+    }
+}
+
+@media (max-width:1200px) {
+    .container{
+        background-color: beige;
+    }
+    
+}
