@@ -1,0 +1,66 @@
+.btn{
+    height:10ch;
+    padding:50px;
+    margin:100px;
+    width:20ch;
+    background-color: chartreuse;
+    color:darkblue;
+    font-size:3ch;
+    border-radius: 20%;
+
+    box-shadow: gray 10px 10px;
+    transition:1s;
+}
+.btn:hover{
+    transform:translate(-10px,10px);
+    background-color: cyan;
+    box-shadow: gray -10px -10px 20px;
+}
+.btn:active{
+    background-color:blue;
+
+}
+.container{
+    background-color: silver;
+    border: solid green;
+    width:14cm;
+    height:8cm;
+}
+.item{
+ height:50px;
+ width:50px;
+ margin:20px;
+ background-color: chartreuse;
+ display:inline-block;
+}
+.one{
+    animation: bounce 1s infinite ease-in;
+}
+.two{
+    animation: bounce 1s infinite ease-out;
+}
+.three{
+    animation: bounce 1s infinite linear;
+}
+.four{
+    animation: bounce 1s infinite ease;
+}
+.five{
+    animation: bounce 1s infinite;
+}
+.one:hover
+{
+    background-color: cornflowerblue;
+}
+@keyframes bounce {
+    0%{
+
+    }
+    50%{
+        transform: translateY(6cm);
+    }
+    100%{
+
+    }
+    
+}

@@ -1,0 +1,30 @@
+div{
+    height:2cm;
+    width:2cm;
+    background-color: aqua;
+    padding:10px;
+    border: blue;
+}
+
+#one{
+ transform:scale(2,0.5);   
+}
+
+#two{
+    transform: rotateZ(10deg);
+}
+
+#three{
+    transform: translateX(50px) translateY(40px);
+}
+
+#six{
+    transform: rotate(45deg) translateX(2px);
+}
+#seven{
+    transform: skewX(-40deg) skewY(40deg);
+}
+
+#eight{
+    transform: skew(10deg, 10deg) rotate(80deg);
+}
